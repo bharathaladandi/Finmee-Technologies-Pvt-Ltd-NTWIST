@@ -1,8 +1,8 @@
-.mainconer {
+/* .mainconer { */
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-  }
+  /* } */
   
   .mainconer > div {
     display: flex;
@@ -11,7 +11,7 @@
   }
   
   .mainimage img,
-  .maindescription p {
+  .maindescription p h1 button {
     max-width: 90%;
     margin: 30px;
     /* width:300px; */
@@ -22,9 +22,9 @@
     flex-direction: row;
   }
   
-  .odd {
+  /* .odd { */
     /* flex-direction: row-reverse; */
-  }
+  /* } */
   
 
   .maindescription button {
@@ -34,7 +34,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 .maindescription h1 {
@@ -48,7 +48,8 @@
   
   .maindescription,
   .mainimage {
-    flex: 1;
+    /* flex: 0.5; */
+    max-width: 50%;
   }
   
   @media (max-width: 768px) {
